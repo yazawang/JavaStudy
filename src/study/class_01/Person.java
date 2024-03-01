@@ -62,12 +62,12 @@ public class Person {
         } else {
             sex = "trans";
         }
-        return "study.class_01.Person{" +
+        return "\nstudy.class_01.Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", gender=" + sex +
                 ", hobby=" + Arrays.toString(hobby) +
-                '}';
+                "}";
     }
 
     public void presentSelf() {
